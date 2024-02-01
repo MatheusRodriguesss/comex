@@ -49,7 +49,6 @@ public class Produto {
                 "Nome: " + nome +
                 "\nDescricao: " + descricao +
                 "\nPreço: " + preco +
-                "\nQuantidade: " + quantidade
-                ;
+                "\nQuantidade: " + quantidade;
     }
 }

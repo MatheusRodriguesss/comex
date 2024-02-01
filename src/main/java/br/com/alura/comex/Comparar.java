@@ -35,7 +35,7 @@ public class Comparar {
         System.out.println(prod2.getPreco());
 
         System.out.println(testeCompara(prod1.getPreco(), prod2.getPreco()));
-        System.out.println(prod1.toString());
+        System.out.println(prod1.toString()) ;
     }
 
 }
