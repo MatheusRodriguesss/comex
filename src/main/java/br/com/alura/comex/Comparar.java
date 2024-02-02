@@ -1,15 +1,6 @@
 package br.com.alura.comex;
 
 public class Comparar {
-    public static String testeCompara(double prod3, double prod4) {
-        if (prod3 > prod4) {
-            return ("Legal, o primeiro carro é + brabo!");
-        } else if (prod3 < prod4) {
-            return ("Legal, o segundo carro é menos brabo!");
-        } else {
-            return ("Legal, o zoado ta no mesmo nivel do brabao!");
-        }
-    }
 
     public static void main(String[] args) {
         Produto prod1 = new Produto();
@@ -37,5 +28,13 @@ public class Comparar {
         System.out.println(testeCompara(prod1.getPreco(), prod2.getPreco()));
         System.out.println(prod1.toString());
     }
-
+    public static String testeCompara(double prod3, double prod4) {
+        if (prod3 > prod4) {
+            return ("Legal, o primeiro carro é + brabo!");
+        } else if (prod3 < prod4) {
+            return ("Legal, o segundo carro é menos brabo!");
+        } else {
+            return ("Legal, o zoado ta no mesmo nivel do brabao!");
+        }
+    }
 }
