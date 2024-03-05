@@ -1,5 +1,7 @@
 package br.com.alura.comex;
 
+import br.com.alura.comex.modelo.Produto;
+
 public class Comparar {
 
     public static void main(String[] args) {

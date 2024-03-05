@@ -1,4 +1,4 @@
-package br.com.alura.comex;
+package br.com.alura.comex.modelo;
 
 public class dadosCliente {
     public static void main(String[] args) {
@@ -15,8 +15,8 @@ public class dadosCliente {
         adress1.setCidade("São Paulo");
         adress1.setComplemento("Ao lado da adega do batata");
         adress1.setEstado("SP");
-        adress1.setRua("Avenida Pires do Rio, 3102");
-        adress1.setNumero(3102);
+        adress1.setRua("Avenida Pires do Rio");
+        adress1.setNumero((10 * 310) + (4 / 2));
 
 
             System.out.println(client1.toString());
